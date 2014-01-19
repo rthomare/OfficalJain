@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF1E26E188C55850014E805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E26D188C55850014E805 /* Foundation.framework */; };
+		1CF1E270188C55850014E805 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E26F188C55850014E805 /* CoreGraphics.framework */; };
+		1CF1E272188C55850014E805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E271188C55850014E805 /* UIKit.framework */; };
+		1CF1E278188C55850014E805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E276188C55850014E805 /* InfoPlist.strings */; };
+		1CF1E27A188C55850014E805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E279188C55850014E805 /* main.m */; };
+		1CF1E27E188C55850014E805 /* OfficalJainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E27D188C55850014E805 /* OfficalJainAppDelegate.m */; };
+		1CF1E281188C55850014E805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E27F188C55850014E805 /* Main.storyboard */; };
+		1CF1E284188C55850014E805 /* OfficalJainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E283188C55850014E805 /* OfficalJainViewController.m */; };
+		1CF1E286188C55850014E805 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E285188C55850014E805 /* Images.xcassets */; };
+		1CF1E28D188C55850014E805 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E28C188C55850014E805 /* XCTest.framework */; };
+		1CF1E28E188C55850014E805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E26D188C55850014E805 /* Foundation.framework */; };
+		1CF1E28F188C55850014E805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E271188C55850014E805 /* UIKit.framework */; };
+		1CF1E297188C55850014E805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E295188C55850014E805 /* InfoPlist.strings */; };
+		1CF1E299188C55850014E805 /* Offical_JainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E298188C55850014E805 /* Offical_JainTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CF1E290188C55850014E805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF1E262188C55850014E805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF1E269188C55850014E805;
+			remoteInfo = "Offical Jain";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF1E26A188C55850014E805 /* Offical Jain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Offical Jain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF1E26D188C55850014E805 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CF1E26F188C55850014E805 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CF1E271188C55850014E805 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CF1E275188C55850014E805 /* Offical Jain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Offical Jain-Info.plist"; sourceTree = "<group>"; };
+		1CF1E277188C55850014E805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CF1E279188C55850014E805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CF1E27B188C55850014E805 /* Offical Jain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Offical Jain-Prefix.pch"; sourceTree = "<group>"; };
+		1CF1E27C188C55850014E805 /* OfficalJainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficalJainAppDelegate.h; sourceTree = "<group>"; };
+		1CF1E27D188C55850014E805 /* OfficalJainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficalJainAppDelegate.m; sourceTree = "<group>"; };
+		1CF1E280188C55850014E805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CF1E282188C55850014E805 /* OfficalJainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficalJainViewController.h; sourceTree = "<group>"; };
+		1CF1E283188C55850014E805 /* OfficalJainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficalJainViewController.m; sourceTree = "<group>"; };
+		1CF1E285188C55850014E805 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CF1E28B188C55850014E805 /* Offical JainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Offical JainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF1E28C188C55850014E805 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CF1E294188C55850014E805 /* Offical JainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Offical JainTests-Info.plist"; sourceTree = "<group>"; };
+		1CF1E296188C55850014E805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CF1E298188C55850014E805 /* Offical_JainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Offical_JainTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF1E267188C55850014E805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1E270188C55850014E805 /* CoreGraphics.framework in Frameworks */,
+				1CF1E272188C55850014E805 /* UIKit.framework in Frameworks */,
+				1CF1E26E188C55850014E805 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1E288188C55850014E805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1E28D188C55850014E805 /* XCTest.framework in Frameworks */,
+				1CF1E28F188C55850014E805 /* UIKit.framework in Frameworks */,
+				1CF1E28E188C55850014E805 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF1E261188C55850014E805 = {
+			isa = PBXGroup;
+			children = (
+				1CF1E273188C55850014E805 /* Offical Jain */,
+				1CF1E292188C55850014E805 /* Offical JainTests */,
+				1CF1E26C188C55850014E805 /* Frameworks */,
+				1CF1E26B188C55850014E805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF1E26B188C55850014E805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1E26A188C55850014E805 /* Offical Jain.app */,
+				1CF1E28B188C55850014E805 /* Offical JainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CF1E26C188C55850014E805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1E26D188C55850014E805 /* Foundation.framework */,
+				1CF1E26F188C55850014E805 /* CoreGraphics.framework */,
+				1CF1E271188C55850014E805 /* UIKit.framework */,
+				1CF1E28C188C55850014E805 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CF1E273188C55850014E805 /* Offical Jain */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1E27C188C55850014E805 /* OfficalJainAppDelegate.h */,
+				1CF1E27D188C55850014E805 /* OfficalJainAppDelegate.m */,
+				1CF1E27F188C55850014E805 /* Main.storyboard */,
+				1CF1E282188C55850014E805 /* OfficalJainViewController.h */,
+				1CF1E283188C55850014E805 /* OfficalJainViewController.m */,
+				1CF1E285188C55850014E805 /* Images.xcassets */,
+				1CF1E274188C55850014E805 /* Supporting Files */,
+			);
+			path = "Offical Jain";
+			sourceTree = "<group>";
+		};
+		1CF1E274188C55850014E805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1E275188C55850014E805 /* Offical Jain-Info.plist */,
+				1CF1E276188C55850014E805 /* InfoPlist.strings */,
+				1CF1E279188C55850014E805 /* main.m */,
+				1CF1E27B188C55850014E805 /* Offical Jain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF1E292188C55850014E805 /* Offical JainTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1E298188C55850014E805 /* Offical_JainTests.m */,
+				1CF1E293188C55850014E805 /* Supporting Files */,
+			);
+			path = "Offical JainTests";
+			sourceTree = "<group>";
+		};
+		1CF1E293188C55850014E805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1E294188C55850014E805 /* Offical JainTests-Info.plist */,
+				1CF1E295188C55850014E805 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CF1E269188C55850014E805 /* Offical Jain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF1E29C188C55850014E805 /* Build configuration list for PBXNativeTarget "Offical Jain" */;
+			buildPhases = (
+				1CF1E266188C55850014E805 /* Sources */,
+				1CF1E267188C55850014E805 /* Frameworks */,
+				1CF1E268188C55850014E805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Offical Jain";
+			productName = "Offical Jain";
+			productReference = 1CF1E26A188C55850014E805 /* Offical Jain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CF1E28A188C55850014E805 /* Offical JainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF1E29F188C55850014E805 /* Build configuration list for PBXNativeTarget "Offical JainTests" */;
+			buildPhases = (
+				1CF1E287188C55850014E805 /* Sources */,
+				1CF1E288188C55850014E805 /* Frameworks */,
+				1CF1E289188C55850014E805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF1E291188C55850014E805 /* PBXTargetDependency */,
+			);
+			name = "Offical JainTests";
+			productName = "Offical JainTests";
+			productReference = 1CF1E28B188C55850014E805 /* Offical JainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CF1E262188C55850014E805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OfficalJain;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TommyRayStudios;
+				TargetAttributes = {
+					1CF1E28A188C55850014E805 = {
+						TestTargetID = 1CF1E269188C55850014E805;
+					};
+				};
+			};
+			buildConfigurationList = 1CF1E265188C55850014E805 /* Build configuration list for PBXProject "Offical Jain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CF1E261188C55850014E805;
+			productRefGroup = 1CF1E26B188C55850014E805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF1E269188C55850014E805 /* Offical Jain */,
+				1CF1E28A188C55850014E805 /* Offical JainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF1E268188C55850014E805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1E286188C55850014E805 /* Images.xcassets in Resources */,
+				1CF1E278188C55850014E805 /* InfoPlist.strings in Resources */,
+				1CF1E281188C55850014E805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1E289188C55850014E805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1E297188C55850014E805 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF1E266188C55850014E805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1E27A188C55850014E805 /* main.m in Sources */,
+				1CF1E284188C55850014E805 /* OfficalJainViewController.m in Sources */,
+				1CF1E27E188C55850014E805 /* OfficalJainAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1E287188C55850014E805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1E299188C55850014E805 /* Offical_JainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF1E291188C55850014E805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF1E269188C55850014E805 /* Offical Jain */;
+			targetProxy = 1CF1E290188C55850014E805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CF1E276188C55850014E805 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF1E277188C55850014E805 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CF1E27F188C55850014E805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF1E280188C55850014E805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CF1E295188C55850014E805 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF1E296188C55850014E805 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CF1E29A188C55850014E805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CF1E29B188C55850014E805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CF1E29D188C55850014E805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Offical Jain/Offical Jain-Prefix.pch";
+				INFOPLIST_FILE = "Offical Jain/Offical Jain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CF1E29E188C55850014E805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Offical Jain/Offical Jain-Prefix.pch";
+				INFOPLIST_FILE = "Offical Jain/Offical Jain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CF1E2A0188C55850014E805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Offical Jain.app/Offical Jain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Offical Jain/Offical Jain-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Offical JainTests/Offical JainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1CF1E2A1188C55850014E805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Offical Jain.app/Offical Jain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Offical Jain/Offical Jain-Prefix.pch";
+				INFOPLIST_FILE = "Offical JainTests/Offical JainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF1E265188C55850014E805 /* Build configuration list for PBXProject "Offical Jain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF1E29A188C55850014E805 /* Debug */,
+				1CF1E29B188C55850014E805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF1E29C188C55850014E805 /* Build configuration list for PBXNativeTarget "Offical Jain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF1E29D188C55850014E805 /* Debug */,
+				1CF1E29E188C55850014E805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CF1E29F188C55850014E805 /* Build configuration list for PBXNativeTarget "Offical JainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF1E2A0188C55850014E805 /* Debug */,
+				1CF1E2A1188C55850014E805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CF1E262188C55850014E805 /* Project object */;
+}
