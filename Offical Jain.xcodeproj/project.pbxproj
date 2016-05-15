@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C982DD0188D970E001F4408 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C982DCF188D970E001F4408 /* iPad.storyboard */; };
 		1CF1E26E188C55850014E805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E26D188C55850014E805 /* Foundation.framework */; };
 		1CF1E270188C55850014E805 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E26F188C55850014E805 /* CoreGraphics.framework */; };
 		1CF1E272188C55850014E805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E271188C55850014E805 /* UIKit.framework */; };
 		1CF1E278188C55850014E805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E276188C55850014E805 /* InfoPlist.strings */; };
 		1CF1E27A188C55850014E805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E279188C55850014E805 /* main.m */; };
 		1CF1E27E188C55850014E805 /* OfficalJainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E27D188C55850014E805 /* OfficalJainAppDelegate.m */; };
-		1CF1E281188C55850014E805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E27F188C55850014E805 /* Main.storyboard */; };
 		1CF1E284188C55850014E805 /* OfficalJainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E283188C55850014E805 /* OfficalJainViewController.m */; };
 		1CF1E286188C55850014E805 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E285188C55850014E805 /* Images.xcassets */; };
 		1CF1E28D188C55850014E805 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E28C188C55850014E805 /* XCTest.framework */; };
@@ -21,6 +21,20 @@
 		1CF1E28F188C55850014E805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1E271188C55850014E805 /* UIKit.framework */; };
 		1CF1E297188C55850014E805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E295188C55850014E805 /* InfoPlist.strings */; };
 		1CF1E299188C55850014E805 /* Offical_JainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E298188C55850014E805 /* Offical_JainTests.m */; };
+		1CF1E2B5188C56320014E805 /* Bbbbbruaaa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2A3188C56310014E805 /* Bbbbbruaaa.mp3 */; };
+		1CF1E2B6188C56320014E805 /* BigDog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2A4188C56310014E805 /* BigDog.mp3 */; };
+		1CF1E2B7188C56320014E805 /* Challo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2A5188C56310014E805 /* Challo.mp3 */; };
+		1CF1E2B8188C56320014E805 /* Chooth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2A6188C56310014E805 /* Chooth.mp3 */; };
+		1CF1E2B9188C56320014E805 /* Dowwn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2A7188C56310014E805 /* Dowwn.mp3 */; };
+		1CF1E2BA188C56320014E805 /* DrinkWhiskey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2A8188C56310014E805 /* DrinkWhiskey.mp3 */; };
+		1CF1E2BB188C56320014E805 /* DumbShit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2A9188C56310014E805 /* DumbShit.mp3 */; };
+		1CF1E2BC188C56320014E805 /* LetsGo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2AA188C56310014E805 /* LetsGo.mp3 */; };
+		1CF1E2BD188C56320014E805 /* LowKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2AB188C56310014E805 /* LowKey.mp3 */; };
+		1CF1E2BE188C56320014E805 /* RealTalk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2AC188C56310014E805 /* RealTalk.mp3 */; };
+		1CF1E2BF188C56320014E805 /* WetPussy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2AD188C56310014E805 /* WetPussy.mp3 */; };
+		1CF1E2C0188C56320014E805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2AE188C56310014E805 /* Main.storyboard */; };
+		1CF1E2C2188C56320014E805 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1E2B3188C56310014E805 /* Background.jpg */; };
+		1CF1E2C3188C56320014E805 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1E2B4188C56320014E805 /* AudioManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C982DCF188D970E001F4408 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPad.storyboard; path = ../iPad.storyboard; sourceTree = "<group>"; };
 		1CF1E26A188C55850014E805 /* Offical Jain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Offical Jain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF1E26D188C55850014E805 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CF1E26F188C55850014E805 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +59,6 @@
 		1CF1E27B188C55850014E805 /* Offical Jain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Offical Jain-Prefix.pch"; sourceTree = "<group>"; };
 		1CF1E27C188C55850014E805 /* OfficalJainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficalJainAppDelegate.h; sourceTree = "<group>"; };
 		1CF1E27D188C55850014E805 /* OfficalJainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficalJainAppDelegate.m; sourceTree = "<group>"; };
-		1CF1E280188C55850014E805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CF1E282188C55850014E805 /* OfficalJainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficalJainViewController.h; sourceTree = "<group>"; };
 		1CF1E283188C55850014E805 /* OfficalJainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficalJainViewController.m; sourceTree = "<group>"; };
 		1CF1E285188C55850014E805 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +67,21 @@
 		1CF1E294188C55850014E805 /* Offical JainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Offical JainTests-Info.plist"; sourceTree = "<group>"; };
 		1CF1E296188C55850014E805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CF1E298188C55850014E805 /* Offical_JainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Offical_JainTests.m; sourceTree = "<group>"; };
+		1CF1E2A3188C56310014E805 /* Bbbbbruaaa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bbbbbruaaa.mp3; sourceTree = "<group>"; };
+		1CF1E2A4188C56310014E805 /* BigDog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BigDog.mp3; sourceTree = "<group>"; };
+		1CF1E2A5188C56310014E805 /* Challo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Challo.mp3; sourceTree = "<group>"; };
+		1CF1E2A6188C56310014E805 /* Chooth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chooth.mp3; sourceTree = "<group>"; };
+		1CF1E2A7188C56310014E805 /* Dowwn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dowwn.mp3; sourceTree = "<group>"; };
+		1CF1E2A8188C56310014E805 /* DrinkWhiskey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DrinkWhiskey.mp3; sourceTree = "<group>"; };
+		1CF1E2A9188C56310014E805 /* DumbShit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DumbShit.mp3; sourceTree = "<group>"; };
+		1CF1E2AA188C56310014E805 /* LetsGo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LetsGo.mp3; sourceTree = "<group>"; };
+		1CF1E2AB188C56310014E805 /* LowKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LowKey.mp3; sourceTree = "<group>"; };
+		1CF1E2AC188C56310014E805 /* RealTalk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RealTalk.mp3; sourceTree = "<group>"; };
+		1CF1E2AD188C56310014E805 /* WetPussy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WetPussy.mp3; sourceTree = "<group>"; };
+		1CF1E2AE188C56310014E805 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		1CF1E2B0188C56310014E805 /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		1CF1E2B3188C56310014E805 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		1CF1E2B4188C56320014E805 /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +108,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C982DCE188D96DC001F4408 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1C982DCF188D970E001F4408 /* iPad.storyboard */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		1CF1E261188C55850014E805 = {
 			isa = PBXGroup;
 			children = (
+				1CF1E2A2188C56310014E805 /* Sahil Adlib */,
+				1CF1E2B0188C56310014E805 /* AudioManager.h */,
+				1CF1E2B3188C56310014E805 /* Background.jpg */,
+				1CF1E2B4188C56320014E805 /* AudioManager.m */,
 				1CF1E273188C55850014E805 /* Offical Jain */,
 				1CF1E292188C55850014E805 /* Offical JainTests */,
 				1CF1E26C188C55850014E805 /* Frameworks */,
@@ -112,9 +153,10 @@
 		1CF1E273188C55850014E805 /* Offical Jain */ = {
 			isa = PBXGroup;
 			children = (
+				1C982DCE188D96DC001F4408 /* iPad */,
 				1CF1E27C188C55850014E805 /* OfficalJainAppDelegate.h */,
 				1CF1E27D188C55850014E805 /* OfficalJainAppDelegate.m */,
-				1CF1E27F188C55850014E805 /* Main.storyboard */,
+				1CF1E2AE188C56310014E805 /* Main.storyboard */,
 				1CF1E282188C55850014E805 /* OfficalJainViewController.h */,
 				1CF1E283188C55850014E805 /* OfficalJainViewController.m */,
 				1CF1E285188C55850014E805 /* Images.xcassets */,
@@ -150,6 +192,24 @@
 				1CF1E295188C55850014E805 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF1E2A2188C56310014E805 /* Sahil Adlib */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1E2A3188C56310014E805 /* Bbbbbruaaa.mp3 */,
+				1CF1E2A4188C56310014E805 /* BigDog.mp3 */,
+				1CF1E2A5188C56310014E805 /* Challo.mp3 */,
+				1CF1E2A6188C56310014E805 /* Chooth.mp3 */,
+				1CF1E2A7188C56310014E805 /* Dowwn.mp3 */,
+				1CF1E2A8188C56310014E805 /* DrinkWhiskey.mp3 */,
+				1CF1E2A9188C56310014E805 /* DumbShit.mp3 */,
+				1CF1E2AA188C56310014E805 /* LetsGo.mp3 */,
+				1CF1E2AB188C56310014E805 /* LowKey.mp3 */,
+				1CF1E2AC188C56310014E805 /* RealTalk.mp3 */,
+				1CF1E2AD188C56310014E805 /* WetPussy.mp3 */,
+			);
+			path = "Sahil Adlib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +260,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = TommyRayStudios;
 				TargetAttributes = {
+					1CF1E269188C55850014E805 = {
+						DevelopmentTeam = M7P637P25B;
+					};
 					1CF1E28A188C55850014E805 = {
 						TestTargetID = 1CF1E269188C55850014E805;
 					};
@@ -229,9 +292,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF1E2BC188C56320014E805 /* LetsGo.mp3 in Resources */,
+				1CF1E2B5188C56320014E805 /* Bbbbbruaaa.mp3 in Resources */,
+				1CF1E2BE188C56320014E805 /* RealTalk.mp3 in Resources */,
 				1CF1E286188C55850014E805 /* Images.xcassets in Resources */,
+				1C982DD0188D970E001F4408 /* iPad.storyboard in Resources */,
+				1CF1E2BB188C56320014E805 /* DumbShit.mp3 in Resources */,
+				1CF1E2B6188C56320014E805 /* BigDog.mp3 in Resources */,
+				1CF1E2C0188C56320014E805 /* Main.storyboard in Resources */,
+				1CF1E2BF188C56320014E805 /* WetPussy.mp3 in Resources */,
+				1CF1E2B8188C56320014E805 /* Chooth.mp3 in Resources */,
+				1CF1E2BA188C56320014E805 /* DrinkWhiskey.mp3 in Resources */,
 				1CF1E278188C55850014E805 /* InfoPlist.strings in Resources */,
-				1CF1E281188C55850014E805 /* Main.storyboard in Resources */,
+				1CF1E2B9188C56320014E805 /* Dowwn.mp3 in Resources */,
+				1CF1E2C2188C56320014E805 /* Background.jpg in Resources */,
+				1CF1E2B7188C56320014E805 /* Challo.mp3 in Resources */,
+				1CF1E2BD188C56320014E805 /* LowKey.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +328,7 @@
 			files = (
 				1CF1E27A188C55850014E805 /* main.m in Sources */,
 				1CF1E284188C55850014E805 /* OfficalJainViewController.m in Sources */,
+				1CF1E2C3188C56320014E805 /* AudioManager.m in Sources */,
 				1CF1E27E188C55850014E805 /* OfficalJainAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +358,6 @@
 				1CF1E277188C55850014E805 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1CF1E27F188C55850014E805 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CF1E280188C55850014E805 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		1CF1E295188C55850014E805 /* InfoPlist.strings */ = {
@@ -379,10 +448,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Offical Jain/Offical Jain-Prefix.pch";
 				INFOPLIST_FILE = "Offical Jain/Offical Jain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +466,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Offical Jain/Offical Jain-Prefix.pch";
 				INFOPLIST_FILE = "Offical Jain/Offical Jain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +540,7 @@
 				1CF1E29E188C55850014E805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CF1E29F188C55850014E805 /* Build configuration list for PBXNativeTarget "Offical JainTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +549,7 @@
 				1CF1E2A1188C55850014E805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
